@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?gasryo');
+  src:  url('fonts/icomoon.eot?gasryo#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?gasryo') format('truetype'),
+    url('fonts/icomoon.woff?gasryo') format('woff'),
+    url('fonts/icomoon.svg?gasryo#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-pinterest:before {
+  content: "\20";
+  color: #bd081c;
+}
+.icon-list:before {
+  content: "\21";
+}
+.icon-search:before {
+  content: "\22";
+}
+.icon-close:before {
+  content: "\24";
+}
+.icon-remove:before {
+  content: "\24";
+}
+.icon-times:before {
+  content: "\24";
+}
+.icon-user-secret:before {
+  content: "\25";
+}
+.icon-heartbeat:before {
+  content: "\26";
+}
+.icon-nube-de-comentario:before {
+  content: "\23";
+}
